@@ -20,6 +20,9 @@ const Navbar = () => {
                         <NavItem>
                             <NavLinks to="discover">Discover</NavLinks>
                         </NavItem>
+                        <NavItem>
+                            <NavLinks to="services">Services</NavLinks>
+                        </NavItem>
                     </NavMenu>
                 </NavbarContainer>
             </Nav>
