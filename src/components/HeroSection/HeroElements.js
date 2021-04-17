@@ -64,10 +64,17 @@ export const HeroP = styled.p`
     max-width: 600px;
 
     @media screen and (max-width: 768px) {
-        font-size: 240px;
+        font-size: 24px;
     }
 
     @media screen and (max-width: 480px) {
         font-size: 18px;
     }
+`;
+
+export const HeroBtnWrapper = styled.div`
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `;
