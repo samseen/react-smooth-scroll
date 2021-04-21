@@ -1,9 +1,11 @@
 import React from 'react'
 import { Button } from '../ButtonElement';
-import img from '../../images/svg-1.svg';
+// import img from '../../images/svg-1.svg';
+// import img2 from '../../images/svg-2.svg';
+// import img3 from '../../images/svg-3.svg';
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './InfoElements'
 
-const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headLine, darkText, description, buttonLabel, alt, primary, dark, dark2}) => {
+const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headLine, darkText, description, buttonLabel, img, alt, primary, dark, dark2}) => {
     return (
         <>
          <InfoContainer lightBg={lightBg} id={id}>
