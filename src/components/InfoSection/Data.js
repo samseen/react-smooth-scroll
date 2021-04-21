@@ -4,7 +4,7 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'Premium Bank',
-    headline: 'Unlimited Transactions with zero fees',
+    headLine: 'Unlimited Transactions with zero fees',
     description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fee.',
     buttonLabel: 'Get Started',
     imgStart: false,
@@ -21,15 +21,15 @@ export const homeObjTwo = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Unlimited Access',
-    headline: 'Unlimited Transactions with zero fees',
-    description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fee.',
+    headLine: 'Unlimited Transactions with zero fees',
+    description: 'We have you covered no matter where you are located. All you need is an internet connection and a phone or computer.',
     buttonLabel: 'Get Started',
-    imgStart: false,
+    imgStart: true,
     img: require('../../images/svg-2.svg').default,
-    alt: 'Car',
-    dark: true,
-    primary: true,
-    darkText: false
+    alt: 'Piggy Bank',
+    dark: false,
+    primary: false,
+    darkText: true
 };
 
 export const homeObjThree = {
@@ -38,7 +38,7 @@ export const homeObjThree = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'Premium Bank',
-    headline: 'Unlimited Transactions with zero fees',
+    headLine: 'Unlimited Transactions with zero fees',
     description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fee.',
     buttonLabel: 'Get Started',
     imgStart: false,
