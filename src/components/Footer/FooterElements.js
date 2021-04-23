@@ -15,4 +15,17 @@ export const FooterWrap = styled.div`
     margin: 0 auto;
 `
 
-export const Foo
+export const FooterLinksContainer = styled.div`
+    display: flex;
+    justify-content: center;
+
+    @media screen and (max-width: 820px) {
+        padding-top: 32px;
+    }
+`
+
+export const FooterLinksWrapper = styled.div`
+    display: flex;
+
+    @media screen and ()
+`
