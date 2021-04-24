@@ -65,3 +65,5 @@ export const FooterLink = styled(Link)`
         transition: 0.3s ease-out;
     }
 `
+
+export const SocialMedia = 
